@@ -1,7 +1,7 @@
 import express, { Request, Response, NextFunction } from 'express'
 import 'express-async-errors';
 import cors from 'cors';
-import path from 'path';
+import path from 'path'
 
 import { router } from './routes'
 
